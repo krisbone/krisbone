@@ -15,8 +15,9 @@ wordRotates.addEventListener('click', manageClick);
 
 const imaget = document.getElementById('temblorwn')
 
-functionm manageImaget() {
+function manageImaget() {
     imaget.classList.toggle('temblor-happens');
 }
+
 
 imaget.addEventListener('click', manageImaget);
